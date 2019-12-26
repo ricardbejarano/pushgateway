@@ -16,7 +16,7 @@ RUN cd /tmp/pushgateway && \
     mkdir -p /tmp/data
 
 
-FROM scratch
+FROM ricardbejarano/scratch:arm
 
 COPY --from=build --chown=100:100 /tmp/pushgateway/pushgateway /
 COPY --from=build --chown=100:100 /tmp/data /data
