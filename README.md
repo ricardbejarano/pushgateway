@@ -10,18 +10,14 @@
 Available on [Docker Hub](https://hub.docker.com) as [`ricardbejarano/pushgateway`](https://hub.docker.com/r/ricardbejarano/pushgateway):
 
 - [`1.0.1-glibc`, `1.0.1`, `glibc`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.glibc) (about `14.7MB`)
-- [`1.0.1-glibc-arm`, `1.0.1-arm`, `glibc-arm`, `master-arm`, `latest-arm` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.glibc-arm) (about `16.5MB`)
 - [`1.0.1-musl`, `musl` *(Dockerfile.musl)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.musl) (about `16.5MB`)
-- [`1.0.1-musl-arm`, `musl-arm` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.musl-arm) (about `14.7MB`)
 
 ### Quay
 
 Available on [Quay](https://quay.io) as:
 
 - [`quay.io/ricardbejarano/pushgateway-glibc`](https://quay.io/repository/ricardbejarano/pushgateway-glibc), tags: [`1.0.1`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.glibc) (about `16.5MB`)
-- [`quay.io/ricardbejarano/pushgateway-glibc-arm`](https://quay.io/repository/ricardbejarano/pushgateway-glibc-arm), tags: [`1.0.1`, `master`, `latest` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.glibc-arm) (about `14.7MB`)
 - [`quay.io/ricardbejarano/pushgateway-musl`](https://quay.io/repository/ricardbejarano/pushgateway-musl), tags: [`1.0.1`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.musl) (about `16.5MB`)
-- [`quay.io/ricardbejarano/pushgateway-musl-arm`](https://quay.io/repository/ricardbejarano/pushgateway-musl-arm), tags: [`1.0.1`, `master`, `latest` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/pushgateway/blob/master/Dockerfile.musl-arm) (about `14.7MB`)
 
 
 ## Features
