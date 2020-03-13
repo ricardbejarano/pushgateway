@@ -12,7 +12,7 @@ RUN [ "$CHECKSUM" = "$(sha256sum /tmp/pushgateway.tar.gz | awk '{print $1}')" ] 
       make build
 
 RUN mkdir -p /rootfs/etc /rootfs/data && \
-    cp /tmp/pushgateway-$VERSION/pushgateway /rootfs/ && \
+    cp /tmp/pushgateway-$VERSION/pushgateway-$VERSION /rootfs/pushgateway && \
     echo "nogroup:*:100:nobody" > /rootfs/etc/group && \
     echo "nobody:*:100:100:::" > /rootfs/etc/passwd
 
