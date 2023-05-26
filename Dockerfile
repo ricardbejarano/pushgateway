@@ -1,7 +1,7 @@
 FROM golang:1-alpine AS build
 
-ARG VERSION="1.5.1"
-ARG CHECKSUM="49c8be3d8d94bf14df6cf7640830497399ce7dc151a0d20ea29fbdf8993b6303"
+ARG VERSION="1.6.0"
+ARG CHECKSUM="7d5c964532015933fba95f466caa98de05308d1abec551f914af1ed5cffa392f"
 
 ADD https://github.com/prometheus/pushgateway/archive/v$VERSION.tar.gz /tmp/pushgateway.tar.gz
 
