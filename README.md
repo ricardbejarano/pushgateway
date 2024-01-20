@@ -20,13 +20,13 @@
 
 Available on Docker Hub as [`docker.io/ricardbejarano/pushgateway`](https://hub.docker.com/r/ricardbejarano/pushgateway):
 
-- [`1.6.2`, `latest` *(Dockerfile)*](Dockerfile)
+- [`1.7.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 ### RedHat Quay
 
 Available on RedHat Quay as [`quay.io/ricardbejarano/pushgateway`](https://quay.io/repository/ricardbejarano/pushgateway):
 
-- [`1.6.2`, `latest` *(Dockerfile)*](Dockerfile)
+- [`1.7.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 
 ## Configuration
